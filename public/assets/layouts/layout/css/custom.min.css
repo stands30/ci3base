@@ -1,0 +1,36 @@
+/***********************************
+  Table Design for detail view
+************************************/
+.detail .table-bordered td{  
+  font-weight: bold;
+}
+.detail .table-bordered td:nth-child(odd) {
+    background: #F5F5F5;
+    font-size: 14px;
+}
+.detail .table-bordered td:nth-child(odd) {
+    font-weight: normal !important;
+}
+
+
+@media only screen and (min-width: 768px){
+	.no-padding{
+		padding: 0;
+	}
+
+	.no-padding-left{
+		padding-left: 0;
+	}
+
+	.no-padding-right{
+		padding-right: 0;
+	}
+}
+
+.mt-element-ribbon .ribbon.ribbon-color-delete{
+	background: none;
+	color: red;
+	border:1px solid red;
+	padding: 5px;
+
+}
